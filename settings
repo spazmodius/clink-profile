@@ -21,7 +21,7 @@ match_colour = -1
 # the line. 0 = PATH only, 1 = PATH and CWD, 2 = PATH, CWD, and directories. In
 # all cases both executables and directories are matched when there is a path
 # separator present. A value of -1 will disable executable matching completely.
-exec_match_style = 2
+exec_match_style = -1
 
 # name: Whitespace prefix matches files
 # type: bool
@@ -39,7 +39,7 @@ prompt_colour = -1
 # type: enum
 # Automatically answers cmd.exe's 'Terminate batch job (Y/N)?' prompts. 0 =
 # disabled, 1 = answer 'Y', 2 = answer 'N'.
-terminate_autoanswer = 0
+terminate_autoanswer = 1
 
 # name: Persistent command history
 # type: bool
